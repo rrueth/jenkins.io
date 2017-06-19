@@ -93,11 +93,11 @@ image:blueocean/pipeline-run-details/changes-one-change.png[List of Changes for 
 === Tests
 
 The "Tests" tab shows information about test results for this run.
-This tab will only contain information if a test result publishing step,
+This tab will only contain information if a test result publishing step exists,
 such as the "Publish JUnit test results" (`junit`) step.
-If no results are recorded this table will say that,
+If no results are recorded, this table will say that.
 If all tests pass, this tab will report the total number of passing tests.
-In the case of failures, the tab will display logs details from the failures as shown below.
+In the case of failures, the tab will display logs detailing the failures as shown below.
 
 image:blueocean/pipeline-run-details/tests-unstable.png[Test Results for Unstable Run, role=center]
 
